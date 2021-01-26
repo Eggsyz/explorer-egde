@@ -49,6 +49,15 @@ const frameIn = [
         },
         component: _import('demo/page3')
       },
+      {
+        path: 'blocklist',
+        name: 'blocklist',
+        meta: {
+          title: '区块列表',
+          auth: true
+        },
+        component: _import('explorer/blocks')
+      },
       // 系统 前端日志
       {
         path: 'log',

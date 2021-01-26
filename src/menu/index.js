@@ -30,6 +30,7 @@ export const menuHeader = supplementPath([
 
 export const menuAside = supplementPath([
   { path: '/index', title: '首页', icon: 'home' },
+  { path: '/blocklist', title: '区块列表', icon: 'home' },
   {
     title: '页面',
     icon: 'folder-o',
